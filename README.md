@@ -2,7 +2,7 @@
 
 A simple,  Budget Tracker application written in Python. This program allows users to set a total budget,categorized expenses, view formatted expense history, and save data.
 
-
+---
 
 ## Project Structure
 
@@ -11,28 +11,28 @@ budget_tracker/
 │
 ├── data/
 │   └── expenses.json      # Persistent storage for budget & expense entries
-├── main.py                # Main application entry point & menu CLI
+├── main.py                # Main application entry point 
 ├── storage.py             # Functions to load and save data from/to JSON
 └── tracker.py             # Core tracker operations (set budget, add expense, view expenses)
 ```
 
-
+---
 
 ## Features
 
-- **Set Budget**: Set and update your total budget allowance.
-- **Add Expense**: Log expenses with description, amount, and custom/default categories (e.g., Food, Travel, Uncategorized).
-- **View Expenses**: Display recorded expenses in a formatted table layout.
+- **Set Budget**: Set and update your total budget allowance
+- **Add Expense**: Log expenses with description, amount, and custom categories (e.g., Food, Travel, Uncategorized)
+- **View Expenses**: Display recorded expenses in a table layout
 - **Persistent Storage**: Automatically saves all data to `data/expenses.json` so your entries persist across sessions.
-- **Error Handling**: Handles invalid numerical inputs gracefully.
+- **Error Handling**: Handles invalid numerical inputs gracefully
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- **Python**: Make sure Python 3.6 or higher is installed on your system.
+- **Python**: Make sure Python 3.11  is installed on system
 
 To check if Python is installed, run:
 ```bash
@@ -43,10 +43,10 @@ python3 --version
 
 ---
 
-## 📥 Installation & Setup
+##  Installation & Setup
 
 1. **Clone or Download the Repository**
-   Download the project folder or clone the repository to your local machine.
+   Download the project folder
 
 2. **Navigate to the Project Directory**
    Open your terminal/command prompt and navigate into the `budget_tracker` folder:
@@ -59,7 +59,7 @@ python3 --version
 
 ---
 
-## ▶️ Running the Application
+##  Running the Application
 
 Execute the following command in your terminal from the project directory:
 
@@ -70,9 +70,9 @@ python main.py
 
 ---
 
-## 💡 Usage Guide
+##  Usage Guide
 
-Upon launching the application, you will be greeted with the main menu:
+Upon launching the application, will be greeted with the main menu:
 
 ```text
 --- Budget Tracker ---
@@ -89,7 +89,3 @@ Upon launching the application, you will be greeted with the main menu:
 - Choose **5** to close the program safely.
 
 ---
-
-## 📄 License
-
-This project was created for educational purposes as a college assignment.
