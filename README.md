@@ -1,10 +1,10 @@
 # Budget Tracker
 
-A simple, modular CLI-based Budget Tracker application written in Python. This program allows users to set a total budget, log categorized expenses, view formatted expense history, and save data persistently in JSON format.
+A simple,  Budget Tracker application written in Python. This program allows users to set a total budget,categorized expenses, view formatted expense history, and save data.
 
----
 
-## 📁 Project Structure
+
+## Project Structure
 
 ```text
 budget_tracker/
@@ -16,9 +16,9 @@ budget_tracker/
 └── tracker.py             # Core tracker operations (set budget, add expense, view expenses)
 ```
 
----
 
-## ✨ Features
+
+## Features
 
 - **Set Budget**: Set and update your total budget allowance.
 - **Add Expense**: Log expenses with description, amount, and custom/default categories (e.g., Food, Travel, Uncategorized).
