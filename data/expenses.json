@@ -1,0 +1,35 @@
+{
+    "budget": 3000.0,
+    "expenses": [
+        {
+            "description": "Mayuri",
+            "amount": 500.0,
+            "category": "Food"
+        },
+        {
+            "description": "Bistro",
+            "amount": 2600.0,
+            "category": "Food"
+        },
+        {
+            "description": "dfs",
+            "amount": 54.0,
+            "category": "food"
+        },
+        {
+            "description": "UB",
+            "amount": 400.0,
+            "category": "FOOD"
+        },
+        {
+            "description": "mayuri",
+            "amount": 300.0,
+            "category": "food"
+        },
+        {
+            "description": "300",
+            "amount": 70.0,
+            "category": "TRAVEL"
+        }
+    ]
+}
